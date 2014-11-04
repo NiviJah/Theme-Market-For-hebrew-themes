@@ -4492,7 +4492,7 @@ a.chzn-single {
   position: relative;
   top: 0;
   right: 0;
-  text-align: right;
+  text-align: center;
   -webkit-transition: min-height 500ms ease-out;
   -moz-transition: min-height 500ms ease-out;
   transition: min-height 500ms ease-out;
