@@ -7854,7 +7854,6 @@ h3,
 h4,
 h5,
 h6,
-pre,
 form,
 p,
 blockquote,
@@ -7863,7 +7862,12 @@ td {
   margin: 0;
   padding: 0;
   direction: rtl; }
-
+pre {
+  margin: 0;
+  padding: 0;
+  direction: ltr; 
+text-align: left;
+}
 /* Default Link Styles */
 a {
   color: #627f9a;
