@@ -1382,7 +1382,9 @@ h3.section-title.title_divided a {
   height: 0;
   width: 0;
   position: absolute;
-  pointer-events: none; }
+  pointer-events: none;
+  margin: 0px -4px;
+ }
 
 .select-wrapper:after {
   border-color: rgba(145, 145, 145, 0);
@@ -1407,7 +1409,7 @@ h3.section-title.title_divided a {
   border: 1px solid #dddddd;
   padding: 5px 8px 4px;
   position: relative;
-  top: 1px;
+  top: 0px;
   background: white;
   background: -moz-linear-gradient(top, white 0%, #f3f3f3 100%);
   background: -webkit-linear-gradient(top, white 0%, #f3f3f3 100%);
