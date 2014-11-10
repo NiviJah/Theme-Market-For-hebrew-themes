@@ -12,3 +12,9 @@ Version: 2.0
 
 /*************** ADD YOUR CUSTOM CSS IN THIS AREA ***************/
 
+.link_to_demo {
+display: inline-block;
+}
+#ninja_forms_form_5_cont {
+display: inline-block;
+}
