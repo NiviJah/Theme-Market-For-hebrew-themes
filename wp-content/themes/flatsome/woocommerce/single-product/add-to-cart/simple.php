@@ -58,6 +58,8 @@ endif;
 				// check if the custom field has a value
 		if( ! empty( $link_to_demo ) ) :?>
 		<a href="<?php echo $link_to_demo ?>"><button type="text" class="link_to_demo button secondary"><?php _e('Demo','woothemes'); ?></button></a>
-		
+
 	<?php endif;?>
+	<?php if ( $product->is_in_stock() === false ) : ?>
 	<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 5 ); }  ?>
+	<?php endif;?>
